@@ -13,11 +13,11 @@ def make_email(prefix, domain):
 
 setuptools.setup(
 	name = 'mahirulauncher-api',
-	version = '0.1.0',
+	version = '0.1.1',
 	author = 'JeffersonQin',
 	author_email = make_email('1247006353', 'qq.com'),
 	packages = ['mahiruapi'],
-	url = 'https://github.com/JeffersonQin/MahiruLauncher.Api',
+	url = 'https://github.com/JeffersonQin/MahiruLauncher.Api.Python',
 	license = 'MIT License',
 	description = 'MahiruLauncher API Package for Python',
 	long_description = read('README.md'),
